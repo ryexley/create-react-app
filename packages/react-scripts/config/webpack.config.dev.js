@@ -165,7 +165,7 @@ module.exports = {
             test: /\.(js|jsx|mjs)$/,
             // EDITED - ryexley, 01/22/2018
             // include: paths.appSrc,
-            exclude: /node_modules\/(?!autotrack|dom-utils)/,
+            exclude: /node_modules\/(?!autotrack|dom-utils|nosleep.js)/,
             loader: require.resolve('babel-loader'),
             options: {
               // @remove-on-eject-begin
